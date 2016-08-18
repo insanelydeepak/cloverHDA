@@ -5,7 +5,7 @@
 This cloverHDA.kext enables audio/sound on Mac OS 
 
 
-# Requirements : 
+### Requirements : 
   1. Vanilla/Native AppleHDA 
   2. a good Kext Installer or [EastKextPro](http://www.insanelymac.com/forum/files/file/397-easykext-pro-a-minimal-and-super-fast-kext-installer/)
   3. Property List Editors - Xcode or Property List Editor, PlistEdit Pro, TextEdit, etc.
@@ -14,7 +14,7 @@ This cloverHDA.kext enables audio/sound on Mac OS
     ii. RtVariables/CsrActiveConfig/0x3 
 
 
-# Installation :
+### Installation :
   1. Download cloverHDA.kext as per your Audio ID's 
   2. Install using EastKextPro or any Kext Installer
   3. Now apply patches from cloverHDA.plist to your Clover config.plist 
@@ -25,7 +25,7 @@ This cloverHDA.kext enables audio/sound on Mac OS
 
 
 
-# Supported Codec/DEVICE_ID :
+### Supported Codec/DEVICE_ID :
 
   You must have one of the following DEVICE_ID/Codec name described below :
  
