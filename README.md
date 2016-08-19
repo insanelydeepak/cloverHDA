@@ -25,7 +25,7 @@ This cloverHDA.kext enables audio/sound on Mac OS
 
 ### Layout_ID/Audio ID description :
 
-      1 - Layout_ID 11 = ​​3 ports supported (Pink, Green, Blue) (Note : without auto-switch , you have to manually select between output/input device's)
+      1 - Layout_ID 11 = ​​3 ports supported (Pink, Green, Blue) (Note : without auto-switch , you have to manually select between output/input device's) 
       2 - Layout_ID 12 = 5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue) 
       3 - Layout_ID 13 = 5/6 ports supported (Grey, Black, Laranja, Pink, Green, Blue, 
 
@@ -43,7 +43,7 @@ This cloverHDA.kext enables audio/sound on Mac OS
 ###  [Troubleshooting :](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/TroubleShoot/Troubleshoot Reporting.md)
        Repair Permission using EasyKexPro or other tool you like 
        Restart , if still not getting sound devices then :
-       [please report with Requested files] (https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/TroubleShoot/Troubleshoot Reporting.md)
+       please report with Requested files 
 
 
 This kext is based on  [PikeRAlpha's DummyHDA method](https://pikeralpha.wordpress.com/2013/12/17/new-style-of-applehda-kext-patching/) and Clover Patches on fly  method's
