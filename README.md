@@ -6,20 +6,21 @@ This cloverHDA.kext enables audio/sound on Mac OS
 
 
 ### Requirements : 
-  1. Vanilla/Native AppleHDA 
-  2. a good Kext Installer or [EastKextPro](http://www.insanelymac.com/forum/files/file/397-easykext-pro-a-minimal-and-super-fast-kext-installer/)
-  3. Property List Editors - Xcode or Property List Editor, PlistEdit Pro, TextEdit, etc.
-  4.  must have CLOVER/config.plist
-    i. RtVariables/BooterConfig/0x28
-    ii. RtVariables/CsrActiveConfig/0x3 
+  1 - Vanilla/Native AppleHDA 
+  2 - a good Kext Installer or [EastKextPro](http://www.insanelymac.com/forum/files/file/397-easykext-pro-a-minimal-and-super-fast-kext-installer/)
+  3 - Property List Editors - Xcode or Property List Editor, PlistEdit Pro, TextEdit, etc.
+  4 -  must have CLOVER/config.plist
+       i. RtVariables/BooterConfig/0x28
+       ii. RtVariables/CsrActiveConfig/0x3 
 
 
 ### Installation :
-  1. Download cloverHDA.kext as per your Audio ID's 
-  2. Install using EastKextPro or any Kext Installer
-  3. Now apply patches from cloverHDA.plist to your Clover config.plist 
-  4. Add Layout_ID = 13 , 11 or 12 as described in ReadME.txt 
-  5. Restart 
+
+  1 - Download cloverHDA.kext as per your Audio ID's 
+  2 - Install using EastKextPro or any Kext Installer
+  3 - Now apply patches from cloverHDA.plist to your Clover config.plist 
+  4 - Add Layout_ID = 13 , 11 or 12 as described in ReadME.txt 
+  5 - Restart 
 
 #### Note : for Layout_ID you can use DSDT (HDEF Patch) or Clover (Clover/Config.plist/Devices/Audio/Inject=Audio_ID) or [HDAEnabler's kexts](https://bitbucket.org/insanelydeepak/hdaenablers-applehda-for-hackintosh/downloads)
 
