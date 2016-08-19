@@ -42,7 +42,8 @@ This cloverHDA.kext enables audio/sound on Mac OS
       6 - Cirrus Logic Laptop's: CS4213 and CS4210 
 
 ###  [Troubleshooting :](https://raw.githubusercontent.com/insanelydeepak/cloverHDA/master/TroubleShoot/Troubleshoot Reporting.md)
-       Repair Permission using EasyKexPro or other tool you like 
+       After installing repair permissions and rebuild caches use an application of your choice and Restart
+       Recommended to Use EasyKexPro  
        Restart , if still not getting sound devices then :
        please report with Requested files 
 
