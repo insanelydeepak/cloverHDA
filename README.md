@@ -8,6 +8,7 @@ This cloverHDA.kext enables audio/sound on Mac OS
 ### Requirements : 
   1 - Vanilla/Native AppleHDA 
   2 - a good Kext Installer or [EastKextPro](http://www.insanelymac.com/forum/files/file/397-easykext-pro-a-minimal-and-super-fast-kext-installer/)
+  
   3 - Property List Editors - Xcode or Property List Editor, PlistEdit Pro, TextEdit, etc.
   4 -  must have CLOVER/config.plist
        i. RtVariables/BooterConfig/0x28
@@ -34,10 +35,10 @@ This cloverHDA.kext enables audio/sound on Mac OS
 
   You must have one of the following DEVICE_ID/Codec name described below :
  
-      1 - Realtek ALC to Desktop's: ALC662,ALC883,ALC887,ALC888,ALC889,ALC892
-      2 - Realtek ALC to Laptop's: ALC233,ALC268,ALC269,ALC270,ALC272,ALC275,ALC280, ALC298 
-      3 - Conexant for laptop's: CX20590,CX20724 
-      4 - IDT for Laptop's: IDT 92HD66C3/65,IDT92HD75B3X5,IDT92HD81B1X5,IDT92HD87B1 
+      1 - Realtek ALC to Desktop's: ALC887, ALC888, ALC891, ALC892
+      2 - Realtek ALC to Laptop's: ALC255, ALC269, ALC269VC, ALC269VB, ALC270, ALC271, ALC272, ALC275, ALC282, ALC292, ALC298, ALC662, ALC665, ALC898 , ALC88
+      3 - Conexant for laptop's: CX20590,CX20724 ,CX20752
+      4 - IDT for Laptop's: IDT92HD71B7X,IDT92HD73C1X5, IDT92HD75B2X5, IDT92HD75B2X5, IDT92HD81B1X5, IDT92HD90BXX, IDT92HD91BXX, IDT92HD93BXX
       5 - VIA Laptop's: VT1802 
       6 - Cirrus Logic Laptop's: CS4213 and CS4210 
 
