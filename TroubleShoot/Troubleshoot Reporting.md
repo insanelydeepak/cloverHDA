@@ -8,7 +8,9 @@
       3 - Clover files
           i  Clover config.plist 
           ii Clover bootlog
+      4 - Type in Terminal below commands : save ouput 
+           kextstat | grep -y AppleHDA
 
 
-Post to mailbox : insanelydeepak@gmail.com
-
+Post to mailbox : insanelydeepak@gmail.com 
+PS: for Subject mail will be : CloverHDA-CodecID e.g CloverHDA-ALC887 
