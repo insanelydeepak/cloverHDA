@@ -12,5 +12,4 @@
            kextstat | grep -y AppleHDA
 
 
-Post to mailbox : insanelydeepak@gmail.com 
-PS: for Subject mail will be : CloverHDA-CodecID e.g CloverHDA-ALC887 
+
